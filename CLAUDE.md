@@ -2,9 +2,32 @@
 
 This file provides guidance for AI assistants (Claude Code and similar) working in this repository.
 
-## Repository Status
+## Project Purpose
 
-This repository is currently in its initial state — no source files or prior commits exist yet. This CLAUDE.md serves as a foundation to be expanded as the codebase grows.
+Nimbus Server Console — a design mockup (시안) of a web server management dashboard: traffic chart, resource usage, instance list, and live logs. All data is static/mock; there is no backend.
+
+## Tech Stack
+
+- React 18 + Vite 5
+- Tailwind CSS 3 (PostCSS + autoprefixer)
+- lucide-react for icons
+
+## Directory Layout
+
+- `index.html` — Vite entry, loads Inter / JetBrains Mono from Google Fonts
+- `src/main.jsx` — React root
+- `src/App.jsx` — the whole dashboard (mock data constants at the top, small components inline)
+- `src/index.css` — Tailwind directives
+
+## Development
+
+```bash
+npm install
+npm run dev      # local dev server
+npm run build    # production build to dist/
+```
+
+No tests or linter are configured yet.
 
 ## Repository Info
 
